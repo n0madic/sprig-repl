@@ -13,7 +13,11 @@ go get -u github.com/n0madic/sprig-repl
 ```shell
 $ sprig-repl
 Use CTRL + D to exit
->>> {{ "hello!" | upper | repeat 5 }}
+> {{ "hello!" | upper | repeat 5 }}
 HELLO!HELLO!HELLO!HELLO!HELLO!
->>>
+> "HELLO" | lower
+hello
+>
 ```
+
+Brackets can be omitted.
