@@ -1,6 +1,6 @@
 # Sprig-REPL
 
-REPL go-template with Sprig functions
+REPL go-template with [Sprig](http://masterminds.github.io/sprig/) functions
 
 ## Install
 
