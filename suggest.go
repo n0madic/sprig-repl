@@ -5,7 +5,7 @@ import prompt "github.com/c-bata/go-prompt"
 var suggest = []prompt.Suggest{
 	{Text: "/help", Description: "Help for Sprig functions"},
 	{Text: "/quit", Description: "Quit from REPL"},
-	{Text: "abbrevboth", Description: "Abbreviate both sides"},
+	{Text: "abbrevBoth", Description: "Abbreviate both sides"},
 	{Text: "abbrev", Description: "Truncate a string with ellipses (...)"},
 	{Text: "add1", Description: "Increment by 1"},
 	{Text: "add1f", Description: "Float increment by 1"},
@@ -191,7 +191,6 @@ var suggest = []prompt.Suggest{
 	{Text: "toRawJson", Description: "Encodes an item into JSON string with HTML characters unescaped"},
 	{Text: "toString", Description: "Convert to a string"},
 	{Text: "toStrings", Description: "Convert a list, slice, or array to a list of strings"},
-	{Text: "trimall", Description: "Remove given characters from the front or back of a string"},
 	{Text: "trimAll", Description: "Remove given characters from the front or back of a string"},
 	{Text: "trim", Description: "Removes space from either side of a string"},
 	{Text: "trimPrefix", Description: "Trim just the prefix from a string"},
