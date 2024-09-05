@@ -170,6 +170,7 @@ var suggest = []prompt.Suggest{
 	{Text: "set", Description: "Add a new key/value pair to a dictionary"},
 	{Text: "sha1sum", Description: "Receives a string, and computes it’s SHA1 digest"},
 	{Text: "sha256sum", Description: "Receives a string, and computes it’s SHA256 digest"},
+	{Text: "sha512sum", Description: "Receives a string, and computes it’s SHA512 digest"},
 	{Text: "shuffle", Description: "Shuffle a string"},
 	{Text: "slice", Description: "Get partial elements of a list"},
 	{Text: "snakecase", Description: "Convert string from camelCase to snake_case"},
